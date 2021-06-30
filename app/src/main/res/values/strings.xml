@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EquiposGrid</string>
+    <string name="nombre">Nombre</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="liga">"Liga "</string>
+    <string name="ranking">Ranking</string>
+    <string name="antiguedad">Antiguedad</string>
+    <string name="volver">VOLVER</string>
+    <string name="equipo">Equipo</string>
+</resources>

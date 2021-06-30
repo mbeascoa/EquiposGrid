@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/separacionvertical"
+    tools:context=".DetalleEquipo">
+
+    <TextView
+        android:id="@+id/tv_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/separacionvertical"
+        android:text="@string/nombre" />
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/separacionvertical"
+        app:srcCompat="@drawable/alaves" />
+
+    <TextView
+        android:id="@+id/tv_ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/separacionvertical"
+        android:text="@string/ciudad" />
+
+    <ImageView
+        android:id="@+id/img_estadio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/separacionvertical"
+        app:srcCompat="@drawable/alaves_estad" />
+
+    <TextView
+        android:id="@+id/tv_liga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/separacionvertical"
+        android:text="@string/liga" />
+
+    <ImageView
+        android:id="@+id/img_equipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/separacionvertical"
+        app:srcCompat="@drawable/alaves_team" />
+
+    <TextView
+        android:id="@+id/tv_ranking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/separacionvertical"
+        android:text="@string/ranking" />
+
+    <TextView
+        android:id="@+id/tv_antiguedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/separacionvertical"
+        android:paddingBottom="@dimen/separacionvertical"
+        android:text="@string/antiguedad" />
+
+    <Button
+        android:id="@+id/btnCerrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cerrarVentana"
+        android:text="@string/volver" />
+
+</LinearLayout>

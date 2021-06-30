@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="separacionvertical">16dp</dimen>
+    <dimen name="izquierdo">24dp</dimen>
+    <dimen name="arriba">16dp</dimen>
+    <dimen name="lateral">8dp</dimen>
+    <dimen name="abajo">8dp</dimen>
+</resources>
